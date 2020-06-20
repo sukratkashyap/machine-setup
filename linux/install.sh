@@ -46,6 +46,10 @@ sudo snap install rider --classic
 # configure vscode
 cp -v ./common/vscode.settings.json ~/.config/Code/User/settings.json
 cp -v ./common/vscode.keymaps.json ~/.config/Code/User/keybindings.json
+echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+
+# condiguring bash aliases
 cp -v ./common/.bash_aliases ~/.bash_aliases
 
 # install dotnet
