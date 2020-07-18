@@ -11,7 +11,7 @@ wget https://github.com/sukratkashyap/machine-setup/archive/master.zip -O machin
 unzip machine-setup.zip
 cd machine-setup-master/
 
-bash ./common/install.sh
+bash ./linux/install.sh
 ```
 
 ### Windows

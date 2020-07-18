@@ -36,7 +36,6 @@ sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
 # installing dev tools
 sudo apt-get install -y snapd
 sudo snap install code --classic
-sudo snap install node --channel=12/stable --classic
 sudo snap install insomnia
 sudo snap install kubectl --classic
 sudo snap install android-studio --classic
@@ -44,6 +43,7 @@ sudo snap install dbeaver-ce
 sudo snap install rider --classic
 
 # configure vscode
+mkdir -p ~/.config/Code/User/
 cp -v ./common/vscode.settings.json ~/.config/Code/User/settings.json
 cp -v ./common/vscode.keymaps.json ~/.config/Code/User/keybindings.json
 echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf
@@ -59,6 +59,9 @@ sudo apt-get update
 sudo apt-get install -y dotnet-sdk-3.1
 sudo ln -s /usr/bin/dotnet /usr/local/bin/dotnet
 dotnet tool install --global dotnet-ef
+
+# install nvm
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 # install java
 sudo apt-get install -y default-jdk
