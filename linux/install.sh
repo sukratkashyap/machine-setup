@@ -122,3 +122,6 @@ sudo gpg --keyring /usr/share/keyrings/conda-archive-keyring.gpg --no-default-ke
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/conda-archive-keyring.gpg] https://repo.anaconda.com/pkgs/misc/debrepo/conda stable main" | sudo tee /etc/apt/sources.list.d/conda.list
 sudo apt-get update
 sudo apt-get install conda -y
+source /opt/conda/etc/profile.d/conda.sh
+conda init
+conda config --set auto_activate_base false
