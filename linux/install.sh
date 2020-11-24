@@ -30,6 +30,7 @@ git config --global alias.lgs "log --pretty --oneline"
 git config --global credential.helper store
 git config --global push.default current
 git config --global core.editor "nano"
+git config --global pull.ff only
 
 # installing google
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
