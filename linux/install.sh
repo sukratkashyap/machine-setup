@@ -44,6 +44,7 @@ sudo snap install kubectl --classic
 sudo snap install android-studio --classic
 sudo snap install dbeaver-ce
 sudo snap install rider --classic
+sudo snap install doctl
 
 # configure vscode
 mkdir -p ~/.config/Code/User/
