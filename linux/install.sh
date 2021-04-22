@@ -95,6 +95,7 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension dart-code.flutter
 code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension redhat.vscode-yaml
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 
 # teamviewer install
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
