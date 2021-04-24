@@ -16,9 +16,10 @@ sudo apt-get install -y \
     vim
 sudo apt-get install -y gcc g++ make
 
-# installing guake and putting as startup
-sudo apt-get install -y guake
-sudo cp -v /usr/share/applications/guake.desktop /etc/xdg/autostart/
+# installing terminus
+wget https://github.com/Eugeny/terminus/releases/download/v1.0.137/terminus-1.0.137-linux.deb -O terminus.deb
+sudo apt-get install -y ./terminus.deb
+cp -v ./common/terminus.yaml ~/.config/terminus/config.yaml
 
 # installing git
 sudo apt-get install -y git

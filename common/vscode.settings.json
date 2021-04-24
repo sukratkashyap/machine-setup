@@ -4,6 +4,9 @@
     "files.insertFinalNewline": true,
     "explorer.confirmDelete": false,
     "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
@@ -20,5 +23,6 @@
     },
     "git.enableSmartCommit": true,
     "workbench.iconTheme": "vscode-icons",
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "vetur.format.options.tabSize": 4
 }
