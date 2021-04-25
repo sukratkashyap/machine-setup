@@ -2,33 +2,34 @@ terminal:
   searchOptions: {}
   colorScheme:
     name: Material
-    foreground: "#eceff1"
+    foreground: '#eceff1'
     background: rgba(38, 50, 56, 1)
     selection: null
-    cursor: "#FFCC00"
+    cursor: '#FFCC00'
     colors:
-      - "#000000"
-      - "#D62341"
-      - "#9ECE58"
-      - "#FAED70"
-      - "#396FE2"
-      - "#BB80B3"
-      - "#2DDAFD"
-      - "#d0d0d0"
+      - '#000000'
+      - '#D62341'
+      - '#9ECE58'
+      - '#FAED70'
+      - '#396FE2'
+      - '#BB80B3'
+      - '#2DDAFD'
+      - '#d0d0d0'
       - rgba(255, 255, 255, 0.2)
-      - "#FF5370"
-      - "#C3E88D"
-      - "#FFCB6B"
-      - "#82AAFF"
-      - "#C792EA"
-      - "#89DDFF"
-      - "#ffffff"
+      - '#FF5370'
+      - '#C3E88D'
+      - '#FFCB6B'
+      - '#82AAFF'
+      - '#C792EA'
+      - '#89DDFF'
+      - '#ffffff'
   environment: {}
   profile: custom-shell
-  bell: "off"
+  bell: 'off'
   autoOpen: true
   recoverTabs: false
   customShell: /usr/bin/bash
+  warnOnMultilinePaste: false
 hotkeys:
   profile:
     bash:
