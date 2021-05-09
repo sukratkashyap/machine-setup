@@ -2,6 +2,10 @@
 
 set -e
 
+# github
+wget https://github.com/shiftkey/desktop/releases/download/release-2.8.1-linux2/GitHubDesktop-linux-2.8.1-linux2.deb
+sudo apt-get install -y ./GitHubDesktop-linux-2.8.1-linux2.deb
+
 # conda install
 curl https://repo.anaconda.com/pkgs/misc/gpgkeys/anaconda.asc | gpg --dearmor > conda.gpg
 sudo install -o root -g root -m 644 conda.gpg /usr/share/keyrings/conda-archive-keyring.gpg

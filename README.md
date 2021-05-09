@@ -11,7 +11,11 @@ wget https://github.com/sukratkashyap/machine-setup/archive/master.zip -O machin
 unzip machine-setup.zip
 cd machine-setup-master/
 
-bash ./linux/install.sh
+bash ./linux/base.sh
+bash ./linux/git.sh
+bash ./linux/asdf.sh
+bash ./linux/snap.sh
+bash ./linux/tools.sh
 ```
 
 ### Windows
