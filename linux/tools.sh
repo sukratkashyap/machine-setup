@@ -29,3 +29,7 @@ sudo apt-get install -y ./teamviewer_amd64.deb
 # zoom
 wget https://zoom.us/client/latest/zoom_amd64.deb
 sudo apt-get install -y ./zoom_amd64.deb
+
+# vbox
+https://download.virtualbox.org/virtualbox/6.1.22/virtualbox-6.1_6.1.22-144080~Ubuntu~eoan_amd64.deb
+sudo apt-get install -y ./virtualbox-6.1_6.1.22-144080~Ubuntu~eoan_amd64.deb
