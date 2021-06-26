@@ -46,7 +46,7 @@ hotkeys:
   search:
     - - Ctrl-F
   toggle-window:
-    - - Ctrl-`
+    - - Ctrl-1
   close-tab:
     - - Ctrl-W
 serial: {}

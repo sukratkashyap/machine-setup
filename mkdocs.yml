@@ -1,0 +1,30 @@
+site_name: Machine Setup
+site_url: https://example.com/
+
+nav:
+  - index.md
+  - start.md
+  - ide.md
+  - programming.md
+  - tools.md
+
+theme:
+  name: material
+  palette:
+    primary: white
+  features:
+    - navigation.expand
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sukratkashyap/machine-setup
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed
