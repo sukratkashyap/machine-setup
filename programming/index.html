@@ -279,6 +279,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#dotnet" class="md-nav__link">
+    Dotnet
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -373,6 +380,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#dotnet" class="md-nav__link">
+    Dotnet
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -455,8 +469,17 @@ asdf global nodejs <span class="s2">&quot;</span><span class="nv">$VERSION</span
 </code></pre></div>
 </div>
 </div>
-<h2 id="golang">Golang</h2>
+<h3 id="dotnet">Dotnet</h3>
 <div class="tabbed-set" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">linux</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="nv">VERSION</span><span class="o">=</span><span class="m">5</span>.0.401
+asdf plugin add dotnet-core
+asdf install dotnet-core <span class="s2">&quot;</span><span class="nv">$VERSION</span><span class="s2">&quot;</span>
+asdf global dotnet-core <span class="s2">&quot;</span><span class="nv">$VERSION</span><span class="s2">&quot;</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="golang">Golang</h2>
+<div class="tabbed-set" data-tabs="5:1"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">linux</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz -O /tmp/golang.tar.gz
 sudo rm -rf /usr/local/go <span class="o">&amp;&amp;</span> sudo tar -C /usr/local -xzf /tmp/golang.tar.gz
 
@@ -465,7 +488,7 @@ sudo rm -rf /usr/local/go <span class="o">&amp;&amp;</span> sudo tar -C /usr/loc
 </div>
 </div>
 <h2 id="conda">Conda</h2>
-<div class="tabbed-set" data-tabs="5:1"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">ubuntu</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="6:1"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><label for="__tabbed_6_1">ubuntu</label><div class="tabbed-content">
 <div class="highlight"><pre><span></span><code>curl https://repo.anaconda.com/pkgs/misc/gpgkeys/anaconda.asc <span class="p">|</span> gpg --dearmor &gt; conda.gpg
 sudo install -o root -g root -m <span class="m">644</span> conda.gpg /usr/share/keyrings/conda-archive-keyring.gpg
 sudo gpg --keyring /usr/share/keyrings/conda-archive-keyring.gpg --no-default-keyring --fingerprint 34161F5BF5EB1D4BFBBB8F0A8AEB4F8B29D82806
