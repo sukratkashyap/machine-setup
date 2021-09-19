@@ -56,6 +56,17 @@ git config --global user.email ""
     asdf global nodejs "$VERSION"
     ```
 
+### Dotnet
+
+=== "linux"
+    ```bash
+    VERSION=5.0.401
+    asdf plugin add dotnet-core
+    asdf install dotnet-core "$VERSION"
+    asdf global dotnet-core "$VERSION"
+    ```
+
+
 ## Golang
 
 === "linux"
